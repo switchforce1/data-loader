@@ -1,4 +1,12 @@
 {
+    "name": "switchforce1/data-loader",
+    "authors": [
+        {
+            "name": "Switch FORCE I",
+            "email": "switchforce1@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "type": "project",
     "license": "proprietary",
     "require": {
@@ -22,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Swichforce1\\DataLoaderBundle\\": ""
         }
     },
     "autoload-dev": {
@@ -40,16 +48,6 @@
         "symfony/polyfill-php56": "*"
     },
     "scripts": {
-        "auto-scripts": {
-            "cache:clear": "symfony-cmd",
-            "assets:install %PUBLIC_DIR%": "symfony-cmd"
-        },
-        "post-install-cmd": [
-            "@auto-scripts"
-        ],
-        "post-update-cmd": [
-            "@auto-scripts"
-        ]
     },
     "conflict": {
         "symfony/symfony": "*"

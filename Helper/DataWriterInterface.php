@@ -6,7 +6,7 @@
  * Time: 02:03
  */
 
-namespace App\Domain\Helper;
+namespace Swichforce1\DataLoaderBundle\Helper;
 
 /**
  * Interface DataWriterInterface

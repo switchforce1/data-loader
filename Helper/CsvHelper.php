@@ -6,7 +6,7 @@
  * Time: 02:23
  */
 
-namespace App\Infrastructure\Helper;
+namespace Swichforce1\DataLoaderBundle\Helper;
 
 
 use App\Domain\Helper\DataReaderInterface;
